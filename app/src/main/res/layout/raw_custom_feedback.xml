@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#344863">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_feedback"
+        android:layout_marginTop="20dp"
+        android:hint="Feedback"
+        android:textColorHint="#000"
+        android:drawableRight="@drawable/ic_feedback"
+        android:background="@drawable/edt_bg"
+        android:padding="10dp"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:rating="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_rating"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:background="@drawable/btn_bg"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:imeOptions="actionDone"
+        android:layout_gravity="center" />
+
+
+
+</LinearLayout>

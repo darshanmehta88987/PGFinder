@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#60b6f9"
+    android:elevation="20dp"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_username"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="PgFinder"
+            android:textSize="30sp"
+            android:textColor="#000"
+
+            />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_rev_desc"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="PgFinder"
+        android:textSize="30sp"
+        android:textColor="#504e4e"
+        android:singleLine="false"
+
+        />
+
+    <RatingBar
+        android:id="@+id/rating_review"
+        style="?android:attr/ratingBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        />
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

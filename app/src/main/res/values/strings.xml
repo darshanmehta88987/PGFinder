@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">PGFinderApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="app_ename">Intro Slider</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <string-array name="array_room">
+        <item>Select Room</item>
+
+        <item>1</item>
+
+        <item>2</item>
+
+        <item>3</item>
+
+        <item>4</item>
+
+        <item>5</item>
+
+
+    </string-array>
+
+
+    <string-array name="avg_persone">
+        <item>Select Person</item>
+
+        <item>2</item>
+
+        <item>3</item>
+
+        <item>4</item>
+
+        <item>5</item>
+
+        <item>6</item>
+
+
+    </string-array>
+
+
+</resources>

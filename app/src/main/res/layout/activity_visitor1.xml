@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisitorActivity1"
+    android:orientation="vertical"
+    android:background="@drawable/fullahmedabad"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Visitor"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_gender"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_gender"
+            android:text="Gender :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ffff"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20sp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:buttonTint="#ffff" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="20sp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:buttonTint="#ffff" />
+    </RadioGroup>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_area"
+        android:hint="Area"
+        android:textColorHint="#34495e"
+        android:drawableRight="@drawable/ic_location"
+        android:background="@drawable/edt_bg"
+        android:padding="10dp"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_visit"
+        android:background="@drawable/btn_bg"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Visit"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:imeOptions="actionDone"
+        android:layout_gravity="center" />
+
+</LinearLayout>

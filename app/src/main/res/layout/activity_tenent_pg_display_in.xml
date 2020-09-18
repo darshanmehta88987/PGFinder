@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TenentPgDisplayInActivity"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/viewpager"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pgname"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Niharika Banglo"
+        android:textSize="30sp"
+        android:textColor="#504e4e"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_address"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Abhilasha,Near D-mart"
+        android:textSize="20dp"
+        android:textColor="#7b7979"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#8282a4e2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="Single Sharing"
+            android:textSize="22sp"
+            android:textColor="#504e4e"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:id="@+id/single_rent"
+            android:text="5000"
+            android:textSize="22sp"
+            android:textColor="#504e4e"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#8282a4e2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="Multi Sharing"
+            android:textSize="22sp"
+            android:textColor="#504e4e"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:id="@+id/Multi_rent"
+            android:text="3000"
+            android:textSize="22sp"
+            android:textColor="#504e4e"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:id="@+id/btn_cnf"
+            android:background="@drawable/btn_cnf"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:text="conform"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn_wishlist"
+            android:background="@drawable/btn_cnf"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:text="WishList"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

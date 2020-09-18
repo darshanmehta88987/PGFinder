@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/btn_sort_low_to_high_multi"
+            android:text="L-H-m"
+            android:layout_marginRight="5dp"
+            android:background="#3598db"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/btn_sort_high_to_low_multi"
+            android:text="H-L-m"
+            android:layout_marginRight="5dp"
+            android:background="#3598db"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/btn_sort_low_to_high_single"
+            android:text="L-H-s"
+            android:layout_marginRight="5dp"
+            android:background="#3598db"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/btn_sort_high_to_low_single"
+            android:text="H-L-s"
+            android:background="#3598db"/>
+    </LinearLayout>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_home" />
+
+</LinearLayout>

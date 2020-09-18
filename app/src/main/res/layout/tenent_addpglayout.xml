@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fullahmedabad">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pg_1"
+            android:layout_gravity="center"
+
+            />
+
+        <EditText
+            android:id="@+id/edt_pgName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_bg"
+            android:hint="PG Name"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/edt_pgAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_bg"
+            android:hint="PG Address"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColorHint="#000" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PG For :"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#ffff"
+                android:id="@+id/rg_male"
+                android:text="Male"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#ffff"
+                android:id="@+id/rg_female"
+                android:text="Female"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <Spinner
+                android:id="@+id/spinnner_single"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:entries="@array/array_room"/>
+
+            <Spinner
+                android:id="@+id/spinnner_multi"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:entries="@array/array_room"/>
+
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinnner_avgsharing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/edt_rnt_single"
+                android:hint="Rent-singleSharing"
+                android:background="@drawable/edt_bg"
+                android:inputType="number"
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:imeOptions="actionNext" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/edt_rnt_multi"
+                android:hint="Rent-multiSharing"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:background="@drawable/edt_bg"
+                android:inputType="number"
+                android:imeOptions="actionNext"/>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:imeOptions="actionDone"
+            android:padding="10dp"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</ScrollView>

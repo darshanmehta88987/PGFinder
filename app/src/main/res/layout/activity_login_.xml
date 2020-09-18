@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_Activity"
+    android:background="@drawable/fullahmedabad"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pglogo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PGFinder"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="35sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_email"
+            android:hint="Username"
+            android:textColorHint="#34495e"
+            android:drawableRight="@drawable/ic_person"
+            android:background="@drawable/edt_bg"
+            android:padding="10dp"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+         />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_password"
+            android:hint="Password"
+            android:textColorHint="#34495e"
+            android:drawableRight="@drawable/ic_lock"
+            android:background="@drawable/edt_bg"
+            android:padding="10dp"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:id="@+id/tv_forgotpass"
+        android:autoLink="none"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btn_login"
+                android:background="@drawable/btn_bg"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Sign in"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/btn_registration"
+                android:background="@drawable/btn_bg"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:text="sign up"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Visitor"
+        android:id="@+id/edt_visitor"
+        android:autoLink="none"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"/>
+    <View
+        android:layout_width="140dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#fff"/>
+
+
+
+</LinearLayout>

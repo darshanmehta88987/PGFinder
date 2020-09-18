@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/fullahmedabad"
+    android:orientation="vertical"
+    >
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_usertype"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_type"
+            android:text="User Type :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#31a2f1"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenent"
+            android:textSize="20sp"
+            android:textColor="#31a2f1"
+            android:textStyle="bold"
+            android:buttonTint="#31a2f1"
+            android:layout_marginRight="10dp"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textSize="20sp"
+            android:textColor="#31a2f1"
+            android:textStyle="bold"
+            android:buttonTint="#31a2f1" />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>

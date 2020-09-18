@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/fullahmedabad">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Facility Found"
+        android:id="@+id/tvmanagefacility"
+        android:layout_marginTop="50dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#fff"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listFacility"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp">
+
+
+    </ListView>
+
+</LinearLayout>

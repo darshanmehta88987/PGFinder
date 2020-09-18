@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fullahmedabad"
+    android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginLeft="10dp"
+
+        >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pg_1"
+        android:id="@+id/img1"
+        android:paddingLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pg_1"
+        android:id="@+id/img2"
+        android:paddingLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pg_1"
+        android:id="@+id/img3"
+        android:paddingLeft="10dp"
+        />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facility"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#ffff"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch_tv"
+        android:layout_marginTop="20dp"
+        android:text="Tv"
+        android:buttonTint="#fff"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch_ac"
+        android:layout_marginTop="10dp"
+        android:text="Ac"
+        android:buttonTint="#fff"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch_wifi"
+        android:layout_marginTop="10dp"
+        android:text="Wi-Fi"
+        android:buttonTint="#fff"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch_clean"
+        android:layout_marginTop="10dp"
+        android:text="House Cleaning"
+        android:buttonTint="#fff"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch_food"
+        android:layout_marginTop="10dp"
+        android:text="Food"
+        android:buttonTint="#fff"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch_laundry"
+        android:layout_marginTop="10dp"
+        android:text="Laundry"
+        android:buttonTint="#fff"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"/>
+
+    <RadioGroup
+        android:id="@+id/rg_package"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Package:"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#ffff"
+            android:id="@+id/rg_5min"
+            android:text="5Min"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#ffff"
+            android:id="@+id/rg_7min"
+            android:text="7Min"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#ffff"
+            android:id="@+id/rg_10min"
+            android:text="10Min"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_done"
+        android:background="@drawable/btn_bg"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Done"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:imeOptions="actionDone"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addfacility"
+            android:icon="@drawable/admin_add"
+            android:title="Add Facility" />
+        <item
+            android:id="@+id/nav_managefacility"
+            android:icon="@drawable/admin_manage"
+            android:title="Manage Facility" />
+        <item
+            android:id="@+id/nav_showfacility"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Show Facility" />
+        <item
+            android:id="@+id/nav_addpackage"
+            android:icon="@drawable/admin_add"
+            android:title="Add Package" />
+
+        <item
+            android:id="@+id/nav_managepackage"
+            android:icon="@drawable/admin_manage"
+            android:title="Manage Package" />
+        <item
+            android:id="@+id/nav_showpackage"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Show Package" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/admin_feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="LogOut" />
+    </group>
+
+
+
+</menu>
